@@ -1,5 +1,4 @@
 slurm*.out
-figures
 mnn
 #models
 notebooks/data
