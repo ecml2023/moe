@@ -90,19 +90,19 @@ print('Train samples ', len(train_set))
 print('Validation samples', len(val_set))
 print('Test samples ', len(testset))
 
-imbalanced_trainset = torch.load(open('data/mnist_imbalanced_train_dataset_5.data', 'rb'))
-imbalanced_valset = torch.load(open('data/mnist_imbalanced_val_dataset_5.data', 'rb'))
-imbalanced_testset = torch.load(open('data/mnist_imbalanced_test_dataset_5.data', 'rb'))
+# imbalanced_trainset = torch.load(open('data/mnist_imbalanced_train_dataset_5.data', 'rb'))
+# imbalanced_valset = torch.load(open('data/mnist_imbalanced_val_dataset_5.data', 'rb'))
+# imbalanced_testset = torch.load(open('data/mnist_imbalanced_test_dataset_5.data', 'rb'))
 
-imbalanced_trainloader = torch.utils.data.DataLoader(imbalanced_trainset, batch_size=batch_size, shuffle=True)
+# imbalanced_trainloader = torch.utils.data.DataLoader(imbalanced_trainset, batch_size=batch_size, shuffle=True)
 
-imbalanced_valloader = torch.utils.data.DataLoader(imbalanced_valset, batch_size=batch_size, shuffle=True)
+# imbalanced_valloader = torch.utils.data.DataLoader(imbalanced_valset, batch_size=batch_size, shuffle=True)
 
-imbalanced_testloader = torch.utils.data.DataLoader(imbalanced_testset, batch_size=testsize, shuffle=False)
+# imbalanced_testloader = torch.utils.data.DataLoader(imbalanced_testset, batch_size=testsize, shuffle=False)
 
-print('Imbalanced train samples ', len(train_set))
-print('Imbalanced validation samples', len(val_set))
-print('Imbalanced test samples ', len(testset))
+# print('Imbalanced train samples ', len(train_set))
+# print('Imbalanced validation samples', len(val_set))
+# print('Imbalanced test samples ', len(testset))
 
 # Define expert and gate networks
 

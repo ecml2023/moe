@@ -63,4 +63,4 @@ Running Jupyter Notebook to collect results
 Setting up Wide ResNet
 ----------------------
 
-To run gate sample similarity experiments for CIFAR-10 you will need Wide Resnet. Follow the instructions [HERE](https://github.com/xternalz/WideResNet-pytorch) to set it up and train a model with CIFAR-10 dataset.
+To run gate sample similarity experiments for CIFAR-10 you will need Wide Resnet. Follow the instructions [HERE](https://github.com/xternalz/WideResNet-pytorch) to set it up under the current directory and train the Wide Resnet with CIFAR-10 dataset.

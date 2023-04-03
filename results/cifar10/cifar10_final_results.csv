@@ -1,0 +1,26 @@
+filename,val error,test error,mutual information,sample entropy,experts usage,per_task_entropy,val error std
+cifar10_single_model,40.225,42.744,,,,,0.011
+cifar10_rand_init_10_10_models.pt,68.311,71.855,1.839,0.160,1.867,0.705,0.019
+cifar10_with_attention_rand_init_10_10_models.pt,60.859,64.717,0.000,0.000,0.000,0.000,0.105
+cifar10_stochastic_rand_init_10_10_models.pt,73.262,72.822,1.460,0.000,1.505,0.498,0.016
+cifar10_with_attn_stochastic_rand_init_10_10_models.pt,83.066,85.908,3.180,0.000,3.310,0.895,0.061
+cifar10_rand_init_top_1_10_10_models.pt,64.404,67.188,0.969,0.000,0.969,0.349,0.036
+cifar10_with_attention_rand_init_top_1_10_10_models.pt,62.139,64.180,0.000,0.000,0.000,0.000,0.076
+cifar10_rand_init_top_2_10_10_models.pt,74.678,77.021,1.710,0.148,1.731,0.466,0.017
+cifar10_with_attention_rand_init_top_2_10_10_models.pt,85.430,86.572,2.943,0.170,3.247,0.992,0.005
+cifar10_rand_init_importance_0.6_10_10_models.pt,79.531,81.494,3.304,0.262,3.304,1.182,0.026
+cifar10_with_attn_rand_init_importance_1.0_10_10_models.pt,78.730,80.518,3.319,0.031,3.319,1.172,0.032
+cifar10_rand_init_top_2_importance_0.4_10_10_models.pt,79.277,81.738,3.311,0.376,3.310,1.299,0.132
+cifar10_with_attn_rand_init_top_2_importance_0.2_10_10_models.pt,86.279,86.504,3.229,0.148,3.317,0.938,0.009
+cifar10_rand_init_wideres_sample_sim_same_0.001_sample_sim_diff_1e-05_10_10_models.pt,80.996,82.852,3.309,0.166,3.310,1.096,0.053
+cifar10_rand_init_top_2_wideres_sample_sim_same_0.001_sample_sim_diff_1e-07_10_10_models.pt,82.256,83.506,3.114,0.295,3.254,1.118,0.036
+cifar10_with_attn_rand_init_wideres_sample_sim_same_0.001_sample_sim_diff_0.1_10_10_models.pt,71.895,74.736,3.099,0.017,3.319,1.447,0.136
+cifar10_with_attn_rand_init_top_2_wideres_sample_sim_same_1e-07_sample_sim_diff_0.01_10_10_models.pt,85.967,87.461,3.077,0.155,3.310,0.961,0.007
+new_cifar10_with_attention_rand_init_10_10_models.pt,61.387,63.896,0.000,0.000,0.000,0.000,0.212
+new_cifar10_with_attn_stochastic_rand_init_10_10_models.pt,85.605,87.441,3.262,0.000,3.321,0.815,0.066
+new_cifar10_with_attention_rand_init_top_1_10_10_models.pt,62.187,63.975,0.000,0.000,0.000,0.000,0.259
+new_cifar10_with_attention_rand_init_top_2_10_10_models.pt,81.943,82.920,2.704,0.132,3.136,0.933,0.078
+new_cifar10_with_attn_rand_init_importance_1.0_10_10_models.pt,85.088,85.771,3.317,0.034,3.317,0.915,0.006
+new_cifar10_with_attn_rand_init_top_2_importance_0.6_10_10_models.pt,86.484,87.207,3.282,0.099,3.318,0.865,0.074
+new_cifar10_with_attn_rand_init_wideres_sample_sim_same_0.001_sample_sim_diff_0.01_10_10_models.pt,83.311,84.512,3.306,0.047,3.314,0.956,0.270
+new_cifar10_with_attn_rand_init_top_2_wideres_sample_sim_same_0.001_sample_sim_diff_1e-06_10_10_models.pt,85.771,87.178,3.266,0.116,3.319,0.873,0.082
