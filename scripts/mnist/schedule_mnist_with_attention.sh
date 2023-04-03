@@ -26,6 +26,6 @@ echo "PYTHONPATH: $PYTHONPATH"
 
 conda init bash
 conda activate mnn
-python aaai_2022/src/mnist/mnist_with_attention_model.py $*
+python src/mnist/mnist_with_attention_model.py $*
 
 echo "end of job"

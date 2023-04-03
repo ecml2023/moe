@@ -28,6 +28,6 @@ conda init bash
 conda deactivate
 conda activate mnn
 
-python aaai_2022/src/mnist/mnist_train_original_model.py $*
+python src/mnist/mnist_train_original_model.py $*
 
 echo "end of job"

@@ -28,6 +28,6 @@ conda init bash
 conda deactivate
 conda activate mnn
 
-python aaai_2022/src/cifar10/cifar10_train_from_attn_model.py $*
+python src/cifar10/cifar10_train_from_attn_model.py $*
 
 echo "end of job"

@@ -27,6 +27,6 @@ echo "PYTHONPATH: $PYTHONPATH"
 
 conda init bash
 conda activate mnn
-python aaai_2022/src/cifar10/cifar10_single_model.py 
+python src/cifar10/cifar10_single_model.py 
 
 echo "end of job"
